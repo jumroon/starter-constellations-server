@@ -1,8 +1,8 @@
 const axios = require("axios");
 
-const url = "http://localhost:5000/constellations/KGQIwSq";
+const url = "http://localhost:5001/constellations/KGQIwSq";
 
-axios.get(url).then((response.data = () => console.log(response.data)));
+axios.get(url).then((response) => console.log(response.data));
 
 // function index() {
 //   return axios
